@@ -1,180 +1,209 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Minimal Resume Template</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <title>Alexander Alexandrov | Junior Python Developer</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" /> 
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
+</head> 
+
 <body>
+    <div class="wrapper mt-lg-5">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/profile.png" alt="" />
+                <h1 class="name">Alan Doe</h1>
+                <h3 class="tagline">Full Stack Developer</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+					<a href="mailto:samesainek@gmail.com"><li class="email"><i class="fas fa-envelope"></i>samesainek@gmail.com</a></li>
+					<a href="https://t.me/lexiearchie"><li class="email"><i class="fab fa-telegram">telegram</i>Telegram</a></li>
+					<a href="https://github.com/SaInekK"><li class="email"><i class="fab fa-github"></i>GitHub</a></li>
+					<a href="https://www.codewars.com/users/SainekK"><li class="website"> <img class="ic" src="https://www.codewars.com/assets/logos/logo-61192cf7c75904d495e7ad69695fbf0bffd965bc3e17ac60f6c6b475304db09d.svg"> CodeWars</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree">MSc in Computer Science</h4>
+                    <h5 class="meta">University of London</h5>
+	                    <div class="time">2016 - 2018</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">BSc in Applied Mathematics</h4>
+                    <h5 class="meta">Bristol University</h5>
+                    <div class="time">2012 - 2016</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+					<li>Russian <span class="lang-desc">(Native)</span></li>
+                    <li>English <span class="lang-desc">(Professional)</span></li>
+                </ul>
+            </div><!--//interests-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Volleyball</li>
+                    <li>Snowboarding</li>
+                    <li>Skateboarding</li>
+					<li>Music</li>
+					<li>Swimming</li>
+                </ul>
+            </div><!--//interests-->
+            
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Career Profile</h2>
+                <div class="summary">
+                    <p>Entry level curiosity-driven Python developer. Eager to learn new technologies and becoming an experienced specialist. Interested in Computer Science and Web development.</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiences</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Sales Manager in automotive business</h3>
+                            <div class="time">Nov 2018 - Jan 2021</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Exclusive Ltd.</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Work with customers, promotion, retail and wholesale, purchases, drawing up documents.</p>  
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+            </section><!--//section-->
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
+                <div class="intro">
+                    <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+                </div><!--//intro-->
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <span class="project-title"><a href="https://github.com/SaInekK/life_game">Game of Life</a></span>
+                        </div><!--//upper-row-->
+                    </div><!--//meta-->
+                    <div class="details">
+                        <span class="project-tagline">Zero-player game implementation of cellular automaton devised by the British mathematician John Horton Conway.</span><br>
+						<span class="project-title">Used technologies:</span><br>
+                        <span class="project-tagline"><b>Python/Flask, HTML, CSS</b></span>
+                    </div><!--//details-->
+                </div><!--//item-->
 
-	<div class="container">
-		<div class="hero">
-			<h1 class="name"><strong>Abbie</strong> Bradley</h1>
-			<span class="job-title">Developer</span>
-			<span class="email">abbie.bradley@gmail.com</span>
-
-			<h2 class="lead">Development and design of web applications 
-for startups and large companies</h2>
-		</div>
-	</div>
-
-<!-- Skills and intrest section -->
-	<div class="container">
-
-		<div class="sections">
-			<h2 class="section-title">Skills</h2>
-
-			<div class="list-card">
-				<span class="exp">+ 5 years</span>
-				<div>
-					<h3>Object programming & frameworks</h3>
-					<span>PHP, Symfony, Laravel, Silex, …</span>
-				</div>
-			</div>
-			
-			<div class="list-card">
-				<span class="exp">+ 3 years</span>
-				<div>
-					<h3>Design integration</h3>
-					<span>Style and tools, JS Frameworks</span>
-				</div>
-			</div>	
-					
-			<div class="list-card">
-				<span class="exp">+ 6 years</span>
-				<div>
-					<h3>Linux</h3>
-					<span>Scripting, Servers management and protocols, Automation</span>
-				</div>
-			</div>
-
-
-		</div>
-		<div class="sections">
-				<h2 class="section-title">Interests</h2>
+				<div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <span class="project-title"><a href="https://github.com/SaInekK/weather-social">Weather-social</a></span>
+                        </div><!--//upper-row-->
+                    </div><!--//meta-->
+                    <div class="details">
+                        <span class="project-tagline">Simple Flask app with the weather parser and comments section</span><br>
+						<span class="project-title">Used technologies:</span><br>
+                        <span class="project-tagline"><b>Python/Flask, SQL, HTML, CSS, Bootstrap</b></span>
+                    </div><!--//details-->
+                </div><!--//item-->
 				
-				<div class="list-card">
-					<div>
-						<h3>Scripting languages</h3>
-						<span>PHP, JS, Bash, Python</span>
-					</div>
-				</div>	
-
-				<div class="list-card">
-					<div>
-						<h3>Hacking</h3>
-						<span>Linux, Crawlers, Bots, Network</span>
-					</div>
-				</div>		
-		</div>
-	</div>
-
-	<!-- Achievements -->
-
-	<div class="container cards">
-		
-		<div class="card">
-			<div class="skill-level">
-				<span>+</span>
-				<h2>60</h2>
-			</div>
-
-			<div class="skill-meta">
-				<h3>Projects</h3>
-				<span>Adapting and creating solutions for customer's needs</span>
-			</div>
-		</div>
-
-			
-		<div class="card">
-			<div class="skill-level">
-				<h2>50</h2>
-				<span>%</span>
-			</div>
-
-			<div class="skill-meta">
-				<h3>Web</h3>
-				<span>Applications development integrating third-party services and mobile client(s)</span>
-			</div>
-		</div>
-
-			
-		<div class="card">
-			<div class="skill-level">
-				<h2>30</h2>
-				<span>%</span>
-			</div>
-
-			<div class="skill-meta">
-				<h3>Technical solutions</h3>
-				<span>Such as web services, scripts, configurations</span>
-			</div>
-		</div>
-
-
-		<div class="card">
-			<div class="skill-level">
-				<h2>20</h2>
-				<span>%</span>
-			</div>
-
-			<div class="skill-meta">
-				<h3>Leading</h3>
-				<span>Web projects and ensure the quality of delivery</span>
-			</div>
-		</div>
-
-	</div>
-
-	<!-- Timeeline -->
-
-	<div class="container">
-		<ol class="timeline">
-		  <li>
-		    <p class="line">Experiences</p>
-		    <span class="point"></span>
-		    <p class="description">
-		      Lead Developer @Geronimo
-		    </p>
-		    <span class="date">Today - Apr. 2016</span>
-		  </li>
-
-		  <li>
-		    <span class="point"></span>
-		    <p class="description">
-		      Freelance
-		    </p>
-		    <span class="date">Apr. 2016 - Sep. 2015</span>
-		  </li>
-
-		  		  <li>
-		    <p class="line">Education</p>
-		    <span class="point"></span>
-		    <p class="description">
-		      DUT "Métiers du multimédia et de l'internet"
-		    </p>
-		    <span class="date">2015 - 2013</span>
-		  </li>
-
-		  		  <li>
-		    <span class="point"></span>
-		    <p class="description">
-		      Art & Design studies
-		    </p>
-		    <span class="date">2013 - 2008</span>
-		  </li>
-		</ol>
-
-	</div>
-
-
-	<br><br>
-
-
-	<footer class="container">
-		<span style="font-size: 16px; margin-top: ">Coded by <a href="https://newtodesign.com/">New to design </a> Designed by <a href="https://dribbble.com/shots/4342703-Minimal-resume-freebie-for-junior-self-taught-people">Nicolas Meuzard</a></span>
-	</footer>
-
-
+				<div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <span class="project-title"><a href="https://github.com/SaInekK/utilities">Django Password manager</a></span>
+                        </div><!--//upper-row-->
+                    </div><!--//meta-->
+                    <div class="details">
+                        <span class="project-tagline">Django Password generator and manager with to-do list app & translit translator</span><br>
+						<span class="project-title">Used technologies:</span><br>
+                        <span class="project-tagline"><b>Python/Django, SQL, HTML, CSS, Bootstrap</b></span>
+                    </div><!--//details-->
+                </div><!--//item-->
+            </section><!--//section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">Python &amp; Django</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                               
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Javascript</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                              
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">React &amp; Angular</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS</h3>
+                        <div class="progress level-bar">
+							    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Ruby on Rails</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                  
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Sketch &amp; Photoshop</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+                </div>  
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->
+    </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+        
 </body>
-</html>
+</html> 
+
